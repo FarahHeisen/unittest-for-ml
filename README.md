@@ -23,3 +23,13 @@ Pour voir la solution proposée :
 git checkout solution
 ```
 Le fichier TIPS.md donne également des conseils.
+
+```
+build and run docker image
+```
+```
+docker image build . -t skool_ia
+```
+```
+docker run -it skool_ia file.csv
+```
