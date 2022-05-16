@@ -143,3 +143,6 @@ dmypy.json
 cython_debug/
 .idea
 /.idea/
+.DS_Store
+*.sav
+tests/*.csv
