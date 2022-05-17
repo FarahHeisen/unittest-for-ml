@@ -2,6 +2,7 @@ import pytest
 
 import pandas as pd
 import pathlib as pl
+import os
 from sklearn.linear_model import LogisticRegression
 
 from dataframe.model import save_model
@@ -17,6 +18,7 @@ def test_model():
 
     # Then
     assert (str(path), path.is_file()) == (str(path), True)
+    os.remove(filename)
 
 
 if __name__ == '__main__':
