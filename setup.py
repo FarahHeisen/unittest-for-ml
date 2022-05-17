@@ -7,14 +7,14 @@ with open("requirements-dev.txt", "r") as requirements_dev_file:
     requirements_dev = requirements_dev_file.read().split()
 
 setup(
-    name='kata-dataframe',
+    name='unittest-for-ml',
     version='0.1.0',
-    packages=["kata-dataframe"],
-    package_dir={"kata-dataframe": "dataframe"},
+    packages=["unittest-for-ml"],
+    package_dir={"unittest-for-ml": "dataframe"},
     url='',
     license='',
-    author='SkoolAI',
+    author='Engie',
     author_email='',
-    description='DOJO : mise en place d\'une CI, d\' un setup, ...',
+    description='DOJO : unittests for ML',
     install_requires=[requirements, requirements_dev]
 )
