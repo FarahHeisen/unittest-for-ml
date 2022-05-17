@@ -3,3 +3,5 @@ __pycache__/
 *.sav
 .DS_Store
 /venv/
+/.pytest_cache
+tests/.pytest_cache

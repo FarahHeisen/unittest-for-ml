@@ -1,11 +1,9 @@
-import unittest
+import pytest
 
 
-class TestDataFrame(unittest.TestCase):
-    def test____(self):
-        self.assertEqual(True, True)
-
+def test____():
+    assert 1 == 1
 
 
 if __name__ == '__main__':
-    unittest.main()
+    pytest.main()
