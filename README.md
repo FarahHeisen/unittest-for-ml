@@ -17,6 +17,28 @@ En entrée, on peut considérer le DataFrame suivant :
 En sortie, on peut considérer le DataFrame suivant : 
 ![dataframe_sortie](images/dataframe_sortie.png)
 
+## Prérequis
+
+Installer les packages suivants avec la commande pip :
+
+```
+pip install -r requirements.txt
+```
+
+## Lancer les tests 
+
+Pour lancer les tests en utilisant `pytest`
+
+```
+python -m pytest
+```
+
+Pour lancer les tests en utilisant `unittest`
+
+```
+python -m unittest
+```
+
 ## Solution
 Pour voir la solution proposée : 
 ```
