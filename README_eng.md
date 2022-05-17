@@ -1,5 +1,5 @@
-# Kata Dataframe
-This is a small kata putting TDD into practice on DataFrame. Nice tech interview ;).
+# Kata Unittest for ML
+This is a small kata putting unittest into practice on DataFrame and saving model. 
 
 ## Instructions
 First of all, checkout on the branch that gives an empty skeleton :
@@ -16,6 +16,28 @@ As an input, we can consider the following DataFrame :
 
 As an output, we can consider the following DataFrame : 
 ![dataframe_sortie](images/dataframe_sortie.png)
+
+## Prerequisite
+
+Install the package using this command (for more compliance, you may need to use a `virtualenv`)
+
+```
+pip install -r requirements.txt
+```
+
+## Test
+
+To test using  `pytest`
+
+```
+python -m pytest
+```
+
+To test using `unittest`
+
+```
+python -m unittest
+```
 
 ## Solution
 To see the proposed solution : 
